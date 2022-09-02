@@ -1,4 +1,4 @@
-### SAPPHIRE model builder
+### SAPPHIRE.CNN model builder
 
 This repository contains python code that allows the user to develop neural network classifiers for promoter prediction. The code can be modified and tailored to one's needs using the information below. Execute the script 'train_network.py' to create new models.
 
