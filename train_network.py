@@ -14,9 +14,6 @@ genbank_file = "data/NC_002516.gbk"
 input_file_TSS = "data/NC_002516_TSS_coordinates.csv"
 input_file_background = "data/NC_002516_background_coordinates.csv"
 
-genbank_file = "data/CP002487.gbk"
-input_file_TSS = "data/CP002487_TSS_coordinates.csv"
-input_file_background = "data/CP002487_background_coordinates.csv"
 
 def read_genome():
     return str(next(SeqIO.parse(genbank_file, 'genbank')).seq)
